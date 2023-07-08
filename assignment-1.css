@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.weather__container {
+  border: 2px solid gray;
+  width: 900px;
+  height: 365px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.weather__container--2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.weather__text {
+  padding: 10px;
+}
+
+.weather__emoji {
+  padding: 10px;
+}
+
+.weather__text--1 {
+  padding: 12px;
+  font-size: 21px;
+  padding-top: 10px;
+}
+
+.wrap {
+  display: flex;
+  gap: 17px;
+}
+
+.weather--input--1 {
+  padding: 10px;
+  width: 500px;
+  /*border: none;*/
+}
+
+.weather--input--2 {
+  padding: 12px;
+  width: 90px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+.weather--input--2:hover {
+  cursor: pointer;
+  background: lightblue;
+  color: black;
+}
+
+.weather__days--1 {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.weather__data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.temperature {
+  text-decoration: none;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.myweather--link {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 auto;
+}

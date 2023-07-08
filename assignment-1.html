@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assignment-1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weather__container">
+      <div class="wrap">
+        <div class="wrap--1">
+          <input
+            type="text"
+            class="weather--input--1"
+            id="weather--input--1"
+            placeholder="Enter a city..."
+          />
+        </div>
+
+        <div class="wrap--2">
+          <button type="text" id="weather--input--2" class="weather--input--2">
+            Search
+          </button>
+        </div>
+
+        <div>
+          <button type="text" id="current--weather" class="weather--input--2">
+            Current
+          </button>
+          </div>
+      </div>
+
+      <div class="weather__container--2">
+        <div class="weather--input">
+          <h2 class="weather__text city--text">San Francisco</h2>
+
+          <!--<p class="weather__emoji"> -->
+            <!--14&deg;C &#x26C5;-->
+            <span class="weather__text--1">Mostly cloudy</span>
+         <!-- </p> -->
+
+          <h1 class="weather__text--1 degrees">
+            17°C
+            <!--<a class="temperature" href="#">
+            <span class="celsius">°C </span> 
+            <span class="fahrenheit"> | °F </span> 
+          </a> -->
+          </h1>
+        </div>
+
+        <div class="weather__wrapper">
+          <p class="weather__text--1">
+            Humidity: <span class="weather--humidity">80</span>%
+          </p>
+
+          <p class="weather__text--1">Precipation: <span class="weather--precipation">10%</span> </p>
+
+          <p class="weather__text--1">Wind: <span class="weather--wind">19</span>km/h </p>
+        </div>
+      </div>
+
+      <div class="weather__data">
+        <div class="weather__days--1">
+          <p>Tue</p>
+          <p>&#x26C5;</p>
+          <p>18&deg;C / 13&deg;C</p>
+        </div>
+
+        <div class="weather__days--1">
+          <p>Wed</p>
+          <p>&#x1F324;</p>
+          <p>18&deg;C / 13&deg;C</p>
+        </div>
+
+        <div class="weather__days--1">
+          <p>Thu</p>
+          <p>&#x1F324;</p>
+          <p>18&deg;C / 13&deg;C</p>
+        </div>
+
+        <div class="weather__days--1">
+          <p>Fri</p>
+          <p>&#x2601;</p>
+          <p>17&deg;C / 12&deg;C</p>
+        </div>
+
+        <div class="weather__days--1">
+          <p>Sat</p>
+          <p>&#x1F324;</p>
+          <p>17&deg;C / 12&deg;C</p>
+        </div>
+
+        <div class="weather__days--1">
+          <p>Sun</p>
+          <p>&#x1F324;</p>
+          <p>17&deg;C / 13&deg;C</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="link">
+      <a class="myweather--link" href="#">Open source-code</a> 
+      <span> by Kofoworola Apanisile</span>
+    </div>
+
+    <script src="assignment-1.js"></script>
+  </body>
+</html>
