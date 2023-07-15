@@ -5,9 +5,10 @@
 }
 
 .weather__container {
-  border: 2px solid gray;
-  width: 900px;
-  height: 365px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 1000px;
+  height: 512px;
   margin: 0 auto;
   margin-top: 50px;
   padding: 20px;
@@ -28,7 +29,22 @@
 }
 
 .weather__emoji {
+  display: flex;
+  float: none;
+}
+
+.weather--image {
   padding: 10px;
+  font-size: 21px;
+}
+
+.weather--description {
+  text-transform: capitalize;
+  padding: 8px;
+}
+
+.weather--description::first-letter {
+  text-transform: capitalize;
 }
 
 .weather__text--1 {
@@ -63,8 +79,8 @@
 }
 
 .weather__days--1 {
-  border: 1px solid gray;
-  border-radius: 10px;
+  /*border: 1px solid gray;
+  border-radius: 10px;*/
   padding: 10px;
   text-align: center;
 }
@@ -89,4 +105,18 @@
   text-decoration: none;
   font-size: 16px;
   margin: 0 auto;
+}
+
+.weather--update {
+  padding: 10px;
+}
+
+.temperature--type {
+  color: blue;
+  cursor: pointer;
+}
+
+.temperature:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

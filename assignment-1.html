@@ -36,24 +36,26 @@
           <button type="text" id="current--weather" class="weather--input--2">
             Current
           </button>
-          </div>
+        </div>
       </div>
 
       <div class="weather__container--2">
         <div class="weather--input">
-          <h2 class="weather__text city--text">San Francisco</h2>
+          <h2 class="weather__text city--text">Loading...</h2>
 
-          <!--<p class="weather__emoji"> -->
-            <!--14&deg;C &#x26C5;-->
-            <span class="weather__text--1">Mostly cloudy</span>
-         <!-- </p> -->
+          <p class="weather--update">
+            Last updated: <span class="weather__date"></span>
+          </p>
+
+          <div class="weather__emoji">
+            <img src="https://openweathermap.org/img/wn/10d.png" class="weather--image"/>
+             <span class="weather--description">Mostly cloudy</span>
+          </div>
 
           <h1 class="weather__text--1 degrees">
-            17°C
-            <!--<a class="temperature" href="#">
-            <span class="celsius">°C </span> 
-            <span class="fahrenheit"> | °F </span> 
-          </a> -->
+            <span class="temperature--value">--</span>
+            <span class="temperature--type">°C </span>
+            <!-- <span class="fahrenheit"> | °F </span>  -->
           </h1>
         </div>
 
@@ -62,53 +64,31 @@
             Humidity: <span class="weather--humidity">80</span>%
           </p>
 
-          <p class="weather__text--1">Precipation: <span class="weather--precipation">10%</span> </p>
+          <p class="weather__text--1">
+            Pressure: <span class="weather--pressure">10%</span>
+          </p>
 
-          <p class="weather__text--1">Wind: <span class="weather--wind">19</span>km/h </p>
+          <p class="weather__text--1">
+            Wind: <span class="weather--wind">19</span>km/h
+          </p>
         </div>
       </div>
 
       <div class="weather__data">
         <div class="weather__days--1">
-          <p>Tue</p>
+          <p>Loading...</p>
           <p>&#x26C5;</p>
-          <p>18&deg;C / 13&deg;C</p>
-        </div>
-
-        <div class="weather__days--1">
-          <p>Wed</p>
-          <p>&#x1F324;</p>
-          <p>18&deg;C / 13&deg;C</p>
-        </div>
-
-        <div class="weather__days--1">
-          <p>Thu</p>
-          <p>&#x1F324;</p>
-          <p>18&deg;C / 13&deg;C</p>
-        </div>
-
-        <div class="weather__days--1">
-          <p>Fri</p>
-          <p>&#x2601;</p>
-          <p>17&deg;C / 12&deg;C</p>
-        </div>
-
-        <div class="weather__days--1">
-          <p>Sat</p>
-          <p>&#x1F324;</p>
-          <p>17&deg;C / 12&deg;C</p>
-        </div>
-
-        <div class="weather__days--1">
-          <p>Sun</p>
-          <p>&#x1F324;</p>
-          <p>17&deg;C / 13&deg;C</p>
+          <p>--&deg;C / --&deg;C</p>
         </div>
       </div>
     </div>
 
     <div class="link">
-      <a class="myweather--link" href="https://github.com/Keffyamelia/shecodeassignment">Open source-code</a> 
+      <a
+        class="myweather--link"
+        href="https://github.com/Keffyamelia/shecodeassignment"
+        >Open source-code</a
+      >
       <span> by Kofoworola Apanisile</span>
     </div>
 
