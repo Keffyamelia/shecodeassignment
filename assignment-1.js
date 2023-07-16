@@ -74,7 +74,7 @@ function showForecast(response) {
     const temperatureParagraph = document.createElement("p");
     const minTemp = Math.round(item.temperature.minimum);
     const maxTemp = Math.round(item.temperature.maximum);
-    temperatureParagraph.innerText = `${minTemp}°C / ${maxTemp}°C`;
+    temperatureParagraph.innerText = `${minTemp}° ${maxTemp}°`;
     weatherDaysClone.appendChild(temperatureParagraph);
     weatherData.appendChild(weatherDaysClone);
   });

@@ -5,8 +5,8 @@
 }
 
 .weather__container {
-  border: 1px solid gray;
-  border-radius: 10px;
+  /* border: 1px solid gray;*/
+  border-radius: 10px; 
   width: 1000px;
   height: 512px;
   margin: 0 auto;
@@ -16,6 +16,9 @@
   font-family: "Lato", sans-serif;
   font-size: 21px;
   font-weight: 100;
+  background-image: url("sky.jpg");
+  background-size: cover;
+  opacity: 0.6;
 }
 
 .weather__container--2 {
