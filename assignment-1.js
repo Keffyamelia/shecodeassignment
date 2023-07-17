@@ -116,6 +116,18 @@ searchButton.addEventListener("click", function () {
   fetchAndShowForecastByCity(searchValue);
 });
 
+searchInput.addEventListener("keypress", function(e){
+  if (e.key === "Enter") {
+    const searchValue = searchInput.value;
+
+  if (searchValue !== "") {
+    cityText.innerText = searchValue;
+  }
+  showLocationByCity(searchValue);
+  fetchAndShowForecastByCity(searchValue);
+  }
+});
+
 currentButton.addEventListener("click", showLocation);
 
 let now = new Date();
