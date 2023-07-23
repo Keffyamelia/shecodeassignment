@@ -6,7 +6,7 @@ const units = "metric";
 
 const searchInput = document.getElementById("weather--input--1");
 const searchButton = document.getElementById("weather--input--2");
-const currentButton = document.getElementById("current--weather");
+//const currentButton = document.getElementById("current--weather", showLocation);
 const cityText = document.querySelector(".city--text");
 
 let temperatureText = document.querySelector(".temperature--value");
@@ -22,6 +22,8 @@ let weatherEmoji = document.querySelector(".weather__emoji");
 
 let weatherData = document.querySelector(".weather__data");
 let weatherDays = document.querySelector(".weather__days--1");
+
+//currentButton.addEventListener("click", showLocation);
 
 let days = [
   "Sunday",
@@ -128,7 +130,7 @@ searchInput.addEventListener("keypress", function(e){
   }
 });
 
-currentButton.addEventListener("click", showLocation);
+
 
 let now = new Date();
 
